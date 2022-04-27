@@ -21,7 +21,7 @@ jobs:
           fetch-depth: 0
       - name: Pull from Theme
         id: pull
-        uses: git@github.com:Band-Aid/hugo-theme-even.git
+        uses: Band-Aid/hugo-theme-even.git
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
       - name: Build And Deploy
